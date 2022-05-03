@@ -3,7 +3,7 @@ Welcome to my C# code exercises.
 All were solved without looking at the solutions.
 
 Uncomment to test the ones you want to test.
-To uncomment, remove the lines with * / and * / in them 
+To uncomment, remove the lines containing * / and * /
 2022-05-03
 */
 
@@ -40,3 +40,11 @@ HowManyOccurances.Program hmo = new HowManyOccurances.Program();
 Console.WriteLine( hmo.howMany( textToBeSearched, wordToSearch ) );
 */
 
+// Sort Characters Descending
+/*
+using SortCharactersDescending;
+string stringToBeSorted="muvaffakiyetsizlestiricilestiriveremeyebileceklerimizdenmissinizcesiniz";
+
+SortCharactersDescending.Program scd = new SortCharactersDescending.Program();
+Console.WriteLine( scd.sort( stringToBeSorted ) );
+*/
