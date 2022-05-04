@@ -40,6 +40,7 @@ HowManyOccurances.Program hmo = new HowManyOccurances.Program();
 Console.WriteLine( hmo.howMany( textToBeSearched, wordToSearch ) );
 */
 
+
 // Sort Characters Descending
 /*
 using SortCharactersDescending;
@@ -47,4 +48,16 @@ string stringToBeSorted="muvaffakiyetsizlestiricilestiriveremeyebileceklerimizde
 
 SortCharactersDescending.Program scd = new SortCharactersDescending.Program();
 Console.WriteLine( scd.sort( stringToBeSorted ) );
+*/
+
+
+// Compress String
+/*
+using CompressString;
+string stringToBeCompressed1="kkkktttrrrrrrrrrr";
+string stringToBeCompressed2="p555ppp7www";
+
+CompressString.Program cs = new CompressString.Program();
+Console.WriteLine( cs.compress( stringToBeCompressed1 ) );
+Console.WriteLine( cs.compress( stringToBeCompressed2 ) );
 */
